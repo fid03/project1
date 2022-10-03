@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.container{
+position: absolute;
+width: 100%;
+height: 1046px;
+left: 0px;
+top: 1px;
+background: #FFFFFF;
+}
+h3{
+position: absolute;
+width: 365px;
+height: 93px;
+left: 124px;
+top:91px;
+
+font-family: 'Roboto Slab',serif;
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+}
+.article{
+position: absolute;
+width: 662px;
+height: 374px;
+left: 124px;
+top: 202px;
+
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+}
+.photo1{
+    position: absolute;
+    width: 314px;
+    height: 315px;
+    left: 976px;
+    top: 226px;    
+}
+.ellipse1{
+position: absolute;
+width: 366px;
+height: 59px;
+border-radius:50%;
+left: 950px;
+top: 520px;
+background: #EFEFEF;
+}
+.photo2{
+position: absolute;
+width: 232px;
+height: 203px;
+left: 124px;
+top: 670px;
+}
+.ellipse2{
+    position: absolute;
+width: 189px;
+height: 32px;
+left: 157px;
+border-radius:50% ;
+top: 857px;
+background: #EFEFEF;
+}
+#one{
+position: absolute;
+width: 150px;
+height: 39px;
+left: 488px;
+top: 740px;
+
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 130%;
+}
+.text1{
+position: absolute;
+width: 150px;
+height: 39px;
+left: 488px;
+top: 780px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+color: #000000;
+}
+ #two{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 733px;
+    top: 740px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #000000;
+    
+ }
+ .text2{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 733px;
+    top: 780px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+ }
+
+ #three{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 976px;
+    top: 740px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #000000;
+ }
+ .text3{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    left: 976px;
+    top: 780px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000000;
+ }
+
+@media (max-width:1360px){
+   
+    .article{
+        position: absolute;
+        width: 600px;
+        height: 374px
+    }
+
+    .photo1{
+    position: absolute;
+    width:314px;
+    height:315px; 
+    margin-left:-80px;
+    }
+    .ellipse1{
+        position: absolute;
+        width: 366px;
+        height: 59px;
+        margin-left:-80px;
+    }
+    .photo2{
+        position: absolute;
+        width: 232px;
+        height: 203px;
+        margin-top:50px;
+    }
+    .ellipse2{
+        margin-top:50px;
+    }
+    #one{
+        position: absolute;
+        width: 150px;
+        height: 39px;  
+        margin-left:-10px;
+    }
+    .text1{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-10px;
+    }
+    #two{
+     position: absolute;
+    width: 150px;
+    height: 39px;
+    margin-left: -10px;
+    }
+    .text2{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    margin-left:-10px;
+    }
+    #three{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-10px;
+    }
+    .text3{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-10px;
+    }
+
+}
+
+@media (max-width:1280px){
+   
+    .article{
+        position: absolute;
+        width: 550px;
+        height: 374px
+    }
+
+    .photo1{
+    position: absolute;
+    width:310px;
+    height:311px; 
+    margin-left:-180px;
+    }
+    .ellipse1{
+        position: absolute;
+        width: 366px;
+        height: 59px;
+        margin-left:-180px;
+    }
+    .photo2{
+        position: absolute;
+        width: 232px;
+        height: 203px;
+        margin-top:80px;
+    }
+    .ellipse2{
+        margin-top:80px;
+    }
+    #one{
+        position: absolute;
+        width: 150px;
+        height: 39px;  
+        margin-left:-20px;
+    }
+    .text1{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-20px;
+    }
+    #two{
+     position: absolute;
+    width: 150px;
+    height: 39px;
+    margin-left: -20px;
+    }
+    .text2{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    margin-left:-20px;
+    }
+    #three{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-20px;
+    }
+    .text3{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-20px;
+    }
+
+}
+
+
+@media (max-width:1190px){
+   
+    .article{
+        position: absolute;
+        width: 500px;
+        height: 374px
+    }
+
+    .photo1{
+    position: absolute;
+    width:300px;
+    height:311px; 
+    margin-left:-200px;
+    }
+    .ellipse1{
+        position: absolute;
+        width: 366px;
+        height: 59px;
+        margin-left:-200px;
+    }
+    .photo2{
+        position: absolute;
+        width: 232px;
+        height: 203px;
+        margin-top:120px;
+    }
+    .ellipse2{
+        margin-top:120px;
+    }
+    #one{
+        position: absolute;
+        width: 150px;
+        height: 39px;  
+        margin-left:-30px;
+    }
+    .text1{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-30px;
+    }
+    #two{
+     position: absolute;
+    width: 150px;
+    height: 39px;
+    margin-left: -30px;
+    }
+    .text2{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    margin-left:-30px;
+    }
+    #three{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-30px;
+    }
+    .text3{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-30px;
+    }
+
+}
+
+@media (max-width:1150px){
+   
+    .article{
+        position: absolute;
+        width: 450px;
+        height: 374px
+    }
+
+    .photo1{
+    position: absolute;
+    width:280px;
+    height:311px; 
+    margin-left:-280px;
+    }
+    .ellipse1{
+        position: absolute;
+        width: 366px;
+        height: 59px;
+        margin-left:-280px;
+    }
+    .photo2{
+        position: absolute;
+        width: 232px;
+        height: 203px;
+        margin-top:150px;
+    }
+    .ellipse2{
+        margin-top:150px;
+    }
+    #one{
+        position: absolute;
+        width: 150px;
+        height: 39px;  
+        margin-left:-40px;
+    }
+    .text1{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-40px;
+    }
+    #two{
+     position: absolute;
+    width: 150px;
+    height: 39px;
+    margin-left: -40px;
+    }
+    .text2{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    margin-left:-40px;
+    }
+    #three{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-40px;
+    }
+    .text3{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-40px;
+    }
+
+}
+
+@media (max-width:1100px){
+   
+    .article{
+        position: absolute;
+        width: 350px;
+        height: 274px
+    }
+
+    .photo1{
+    position: absolute;
+    width:200px;
+    height:250px; 
+    margin-left:-300px;
+    }
+    .ellipse1{
+        position: absolute;
+        width: 366px;
+        height: 59px;
+        margin-left:-300px;
+    }
+    .photo2{
+        position: absolute;
+        width: 232px;
+        height: 203px;
+        margin-top:150px;
+        display: none;
+    }
+    .ellipse2{
+        margin-top:150px;
+        display: none;
+    }
+    #one{
+        position: absolute;
+        width: 150px;
+        height: 39px;  
+        margin-left:-50px;
+    }
+    .text1{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-50px;
+    }
+    #two{
+     position: absolute;
+    width: 150px;
+    height: 39px;
+    margin-left: -50px;
+    }
+    .text2{
+    position: absolute;
+    width: 150px;
+    height: 39px;
+    margin-left:-50px;
+    }
+    #three{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-50px;
+    }
+    .text3{
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        margin-left:-50px;
+    }
+
+}
+
+@media (max-width:1110px){
+    .article{
+        position: absolute;
+        width: 350px;
+        height: 254px
+    }
+
+    .photo1{
+    width:280px;
+    height:220px; 
+    margin-left:-400px;
+    }
+    .ellipse1{
+        position: absolute;
+        width: 366px;
+        height: 59px;
+        margin-left:-400px;
+    }
+    .photo2{
+        position: absolute;
+        width: 232px;
+        height: 203px;
+        margin-top:150px;
+        display: none;
+    }
+    .ellipse2{
+        margin-top:150px;
+        display: none;
+    }
+
+    .additional-info{
+
+        position: absolute;
+        margin-left: -300px;
+        margin-top: 200px;
+
+    }
+    
+}
+
+@media (max-width:930px){
+    .article{
+        position: absolute;
+        width: 500px;
+        height: 234px
+    }
+
+    .photo1{
+    width:280px;
+    height:220px; 
+    margin-left:-700px;
+    margin-top: 500px;
+    }
+    .ellipse1{
+        position: absolute;
+        width: 366px;
+        height: 59px;
+        margin-left:-700px;
+        margin-top: 500px;
+    }
+    .photo2{
+        position: absolute;
+        width: 232px;
+        height: 203px;
+        margin-top:150px;
+        display: none;
+    }
+    .ellipse2{
+        margin-top:150px;
+        display: none;
+    }
+
+    .additional-info{
+
+        position: absolute;
+        margin-left: -300px;
+        margin-top: 350px;
+
+    }
+    
+}
+
+@media (max-width:800px){
+    .article{
+        position: absolute;
+        width: 500px;
+        height: 234px
+    }
+
+  h3{
+    position: absolute;
+width: 355px;
+height: 93px;
+  }
+    
+    .photo1{
+    width:280px;
+    height:220px; 
+    margin-left:-700px;
+    margin-top: 500px;
+    }
+    .ellipse1{
+        position: absolute;
+        width: 366px;
+        height: 59px;
+        margin-left:-700px;
+        margin-top: 500px;
+    }
+    
+    .ellipse2{
+        margin-top:150px;
+        display: none;
+    }
+
+     .additional-info{
+
+        position: absolute;
+        margin-left: -340px;
+        margin-top: 350px;
+    } 
+
+    #three{
+        margin-left: -540px;
+        margin-top: 140px;
+    }
+    
+    .text3{
+        margin-left: -540px;
+        margin-top: 140px;
+    }
+  
+}
+
+@media (max-width:690px){
+    .article{
+        position: absolute;
+        width:340px;
+        height: 234px
+    }
+
+    .photo1{
+    width:220px;
+    height:210px; 
+    margin-left:-850px;
+    margin-top:730px;
+    }
+    .ellipse1{
+        position: absolute;
+        width: 366px;
+        height: 59px;
+        margin-left:-850px;
+        margin-top:730px;
+    }
+    
+    
+
+     .additional-info{
+
+        position: absolute;
+        margin-left: -370px;
+        margin-top: 600px;
+    } 
+
+
+
+    #three{
+        margin-left: -540px;
+        margin-top: 150px;
+    }
+    
+    .text3{
+        margin-left: -540px;
+        margin-top: 150px;
+    }
+  
+}
+
